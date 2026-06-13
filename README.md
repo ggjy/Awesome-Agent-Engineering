@@ -1,17 +1,14 @@
 <h1 align="center">From Question Answering to Task Completion:<br/>A Survey on Agent System and Harness Design</h1>
 
 <p align="center">
-  <a href="./Agent_Harness_Survey_TPAMI.pdf">
-    <img src="https://img.shields.io/badge/Paper-Survey-green.svg" alt="Survey Paper">
-  </a>
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
-  </a>
+  <a href="./Agent_Harness_Survey.pdf"><img src="https://img.shields.io/badge/Paper-Survey-green.svg" alt="Survey Paper"></a><a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
 </p>
 
-> This repo is used for recording, tracking, and organizing papers, systems, benchmarks, and other resources on **LLM-based agent system and harness design**, as a supplement to our 📄 **[survey (PDF)](./Agent_Harness_Survey_TPAMI.pdf)**.
+> This repo is used for recording, tracking, and organizing papers, systems, benchmarks, and other resources on **LLM-based agent system and harness design**, as a supplement to our survey.
 >
 > If you find any work missing or have any suggestions (papers, implementations, and other resources), feel free to open pull requests. We will add the missing entries to this repo ASAP.
+>
+> 📄 **[Read the survey (PDF)](./Agent_Harness_Survey.pdf)**
 >
 > ✉️ Corrections & suggestions: [jianyuan_guo@outlook.com](mailto:jianyuan_guo@outlook.com) (Jianyuan Guo)
 
@@ -89,7 +86,7 @@ The execution harness is the runtime system that determines what the model obser
   <em>Structure of our survey: from background and paradigm shifts to harness anatomy, tasks, evaluation, and future directions.</em>
 </p>
 
-📄 **[Read the full survey (PDF)](./Agent_Harness_Survey_TPAMI.pdf)**
+📄 **[Read the full survey (PDF)](./Agent_Harness_Survey.pdf)**
 
 ---
 
@@ -147,7 +144,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 ## 📖 Paper List
 
 > Papers are formatted as: **_Title_**, Author et al., venue badge, optional GitHub badge.
-> Badge colors follow [Awesome-Context-Compression](https://github.com/YerbaPage/Awesome-Context-Compression): `red` = arXiv, `blue` = conference/journal, `lightgrey` = blog/report.
+> Badge colors: `red` = arXiv, `blue` = conference/journal, `lightgrey` = blog/report.
 
 
 ### Foundational Papers (Survey Mainline)
@@ -158,7 +155,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_ReAct: Synergizing Reasoning and Acting in Language Models_**, Yao et al., [![ICLR](https://img.shields.io/badge/ICLR-2023-blue?labelColor=grey)](https://arxiv.org/abs/2210.03629)
 * **_Reflexion: Language Agents with Verbal Reinforcement Learning_**, Shinn et al., [![NeurIPS](https://img.shields.io/badge/NeurIPS-2023-blue?labelColor=grey)](https://arxiv.org/abs/2303.11366)
 * **_Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks_**, Lewis et al., [![NeurIPS](https://img.shields.io/badge/NeurIPS-2020-blue?labelColor=grey)](https://arxiv.org/abs/2005.11401)
-* **_Toolformer: Language Models Can Teach Themselves to Use Tools_**, Schick et al., [![NeurIPS](https://img.shields.io/badge/NeurIPS-2023-blue?labelColor=grey)](https://arxiv.org/abs/2302.04761) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/lukaemon/Toolformer)
+* **_Toolformer: Language Models Can Teach Themselves to Use Tools_**, Schick et al., [![NeurIPS](https://img.shields.io/badge/NeurIPS-2023-blue?labelColor=grey)](https://arxiv.org/abs/2302.04761) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/conceptofmind/toolformer)
 * **_SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering_**, Yang et al., [![NeurIPS](https://img.shields.io/badge/NeurIPS-2024-blue?labelColor=grey)](https://arxiv.org/abs/2405.15793) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/SWE-agent/SWE-agent)
 * **_OpenHands: An Open Platform for AI Software Developers as Generalist Agents_**, Wang et al., [![arXiv](https://img.shields.io/badge/arXiv-24.07-red?labelColor=grey)](https://arxiv.org/abs/2407.16741) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/All-Hands-AI/OpenHands)
 * **_SWE-bench: Can Language Models Resolve Real-World GitHub Issues?_**, Jimenez et al., [![ICLR](https://img.shields.io/badge/ICLR-2024-blue?labelColor=grey)](https://arxiv.org/abs/2310.06770) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/SWE-bench/SWE-bench)
@@ -171,14 +168,14 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 
 ### Surveys and Meta-analyses
 
-* **_A comprehensive survey of agents for computer use: Foundations, challenges, and future directions_**, Sager et al., ![Journal](https://img.shields.io/badge/Journal-2026-blue?labelColor=grey)
+* **_A comprehensive survey of agents for computer use: Foundations, challenges, and future directions_**, Sager et al., [![JAIR](https://img.shields.io/badge/JAIR-01.16-blue?labelColor=grey)](https://arxiv.org/abs/2501.16150)
 * **_Empowering Real-World: A Survey on the Technology, Practice, and Evaluation of LLM-driven Industry Agents_**, Tang et al., [![arXiv](https://img.shields.io/badge/arXiv-10.17-red?labelColor=grey)](https://arxiv.org/abs/2510.17491)
 * **_A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?_**, Chen et al., [![arXiv](https://img.shields.io/badge/arXiv-05.10-red?labelColor=grey)](https://arxiv.org/abs/2505.10924)
 * **_GUI-360 ^_**, Mu et al., [![arXiv](https://img.shields.io/badge/arXiv-11.04-red?labelColor=grey)](https://arxiv.org/abs/2511.04307)
 * **_Adaptation of agentic ai_**, Jiang et al., [![arXiv](https://img.shields.io/badge/arXiv-12.16-red?labelColor=grey)](https://arxiv.org/abs/2512.16301)
 * **_Engineering Reasoning and Instruction (ERI) Benchmark: A Large Taxonomy-driven Dataset for Foundation Models and Agents_**, Naser et al., [![arXiv](https://img.shields.io/badge/arXiv-03.02-red?labelColor=grey)](https://arxiv.org/abs/2603.02239)
 * **_Beyond Pipelines: A Survey of the Paradigm Shift toward Model-Native Agentic AI_**, Sang et al., [![arXiv](https://img.shields.io/badge/arXiv-10.16-red?labelColor=grey)](https://arxiv.org/abs/2510.16720)
-* **_Gui-ceval: A hierarchical and comprehensive chinese benchmark for mobile gui agents_**, Li et al., ![Conf](https://img.shields.io/badge/Conf-2026-blue?labelColor=grey)
+* **_Gui-ceval: A hierarchical and comprehensive chinese benchmark for mobile gui agents_**, Li et al., [![CVPR](https://img.shields.io/badge/CVPR-03.15-blue?labelColor=grey)](https://arxiv.org/abs/2603.15039)
 * **_From static templates to dynamic runtime graphs: a survey of workflow optimization for llm agents_**, Yue et al., [![arXiv](https://img.shields.io/badge/arXiv-03.22-red?labelColor=grey)](https://arxiv.org/abs/2603.22386)
 * **_Toward Reliable Evaluation of LLM-Based Financial Multi-Agent Systems: Taxonomy, Coordination Primacy, and Cost Awareness_**, Nguyen et al., [![arXiv](https://img.shields.io/badge/arXiv-03.27-red?labelColor=grey)](https://arxiv.org/abs/2603.27539)
 * **_ISD-Agent-Bench: A Comprehensive Benchmark for Evaluating LLM-based Instructional Design Agents_**, Jeon et al., [![arXiv](https://img.shields.io/badge/arXiv-02.10-red?labelColor=grey)](https://arxiv.org/abs/2602.10620)
@@ -229,7 +226,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 ### Harness, Runtime, Memory, and Protocols
 
 * **_Dova Deliberation First Multi Agent 2603_**, Unknown et al., [![arXiv](https://img.shields.io/badge/arXiv-03.13-red?labelColor=grey)](https://arxiv.org/abs/2603.13327)
-* **_MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web_**, Steiner et al., ![Conf](https://img.shields.io/badge/Conf-2026-blue?labelColor=grey)
+* **_MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web_**, Steiner et al., [![WWW](https://img.shields.io/badge/WWW-11.23-blue?labelColor=grey)](https://arxiv.org/abs/2511.23281)
 * **_MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution_**, Lin et al., [![arXiv](https://img.shields.io/badge/arXiv-03.18-red?labelColor=grey)](https://arxiv.org/abs/2603.18718)
 * **_Utility-Guided Agent Orchestration for Efficient LLM Tool Use_**, Liu et al., [![arXiv](https://img.shields.io/badge/arXiv-03.19-red?labelColor=grey)](https://arxiv.org/abs/2603.19896)
 * **_Differentiable Modal Logic for Multi-Agent Diagnosis, Orchestration and Communication_**, Sulc et al., [![arXiv](https://img.shields.io/badge/arXiv-02.12-red?labelColor=grey)](https://arxiv.org/abs/2602.12083)
@@ -246,7 +243,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web_**, Kapoor et al., [![arXiv](https://img.shields.io/badge/arXiv-02.17-red?labelColor=grey)](https://arxiv.org/abs/2402.17553)
 * **_EconWebArena: Benchmarking Autonomous Agents on Economic Tasks in Realistic Web Environments_**, Liu et al., [![arXiv](https://img.shields.io/badge/arXiv-06.08-red?labelColor=grey)](https://arxiv.org/abs/2506.08136)
 * **_Mcpagentbench A Real World Task 2512_**, Unknown et al., [![arXiv](https://img.shields.io/badge/arXiv-12.24-red?labelColor=grey)](https://arxiv.org/abs/2512.24565)
-* **_FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol_**, Zhu et al., ![Conf](https://img.shields.io/badge/Conf-2026-blue?labelColor=grey)
+* **_FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol_**, Zhu et al., [![ICASSP](https://img.shields.io/badge/ICASSP-03.24-blue?labelColor=grey)](https://arxiv.org/abs/2603.24943)
 * **_SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents_**, Ying et al., [![arXiv](https://img.shields.io/badge/arXiv-10.10-red?labelColor=grey)](https://arxiv.org/abs/2510.10073)
 * **_AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems_**, Ferrag et al., [![arXiv](https://img.shields.io/badge/arXiv-01.16-red?labelColor=grey)](https://arxiv.org/abs/2601.16964)
 * **_Persona2web: Benchmarking personalized web agents for contextual reasoning with user history_**, Kim et al., [![arXiv](https://img.shields.io/badge/arXiv-02.17-red?labelColor=grey)](https://arxiv.org/abs/2602.17003)
@@ -254,14 +251,14 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents_**, Ye et al., [![arXiv](https://img.shields.io/badge/arXiv-04.06-red?labelColor=grey)](https://arxiv.org/abs/2604.06132)
 * **_Osworld Mcp Benchmarking Mcp Tool 2510_**, Unknown et al., [![arXiv](https://img.shields.io/badge/arXiv-10.24-red?labelColor=grey)](https://arxiv.org/abs/2510.24563)
 * **_UI-CUBE: Enterprise-Grade Computer Use Agent Benchmarking Beyond Task Accuracy to Operational Reliability_**, Cristescu et al., [![arXiv](https://img.shields.io/badge/arXiv-11.17-red?labelColor=grey)](https://arxiv.org/abs/2511.17131)
-* **_ProSoftArena: Benchmarking Hierarchical Capabilities of Multi-modal Agents in Professional Software Environments_**, Ai et al., ![Conf](https://img.shields.io/badge/Conf-2026-blue?labelColor=grey)
+* **_ProSoftArena: Benchmarking Hierarchical Capabilities of Multi-modal Agents in Professional Software Environments_**, Ai et al., [![CVPR](https://img.shields.io/badge/CVPR-01.02-blue?labelColor=grey)](https://arxiv.org/abs/2601.02399)
 * **_ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development_**, Yang et al., [![arXiv](https://img.shields.io/badge/arXiv-01.11-red?labelColor=grey)](https://arxiv.org/abs/2601.11077)
 * **_Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents_**, Tang et al., [![arXiv](https://img.shields.io/badge/arXiv-02.02-red?labelColor=grey)](https://arxiv.org/abs/2602.02995)
 * **_Featurebench: Benchmarking agentic coding for complex feature development_**, Zhou et al., [![arXiv](https://img.shields.io/badge/arXiv-02.10-red?labelColor=grey)](https://arxiv.org/abs/2602.10975)
 * **_LiveCultureBench: a Multi-Agent, Multi-Cultural Benchmark for Large Language Models in Dynamic Social Simulations_**, Pham et al., [![arXiv](https://img.shields.io/badge/arXiv-03.01-red?labelColor=grey)](https://arxiv.org/abs/2603.01952)
 * **_Beyond Benchmark Islands: Toward Representative Trustworthiness Evaluation for Agentic AI_**, Qi et al., [![arXiv](https://img.shields.io/badge/arXiv-03.14-red?labelColor=grey)](https://arxiv.org/abs/2603.14987)
 * **_Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies_**, Kulkarni et al., [![arXiv](https://img.shields.io/badge/arXiv-03.22-red?labelColor=grey)](https://arxiv.org/abs/2603.22651)
-* **_TurkingBench: A Challenge Benchmark for Web Agents_**, Xu et al., ![Conf](https://img.shields.io/badge/Conf-2025-blue?labelColor=grey)
+* **_TurkingBench: A Challenge Benchmark for Web Agents_**, Xu et al., [![NAACL](https://img.shields.io/badge/NAACL-03.11-blue?labelColor=grey)](https://arxiv.org/abs/2403.11905)
 * **_Bearcubs: A benchmark for computer-using web agents_**, Song et al., [![arXiv](https://img.shields.io/badge/arXiv-03.07-red?labelColor=grey)](https://arxiv.org/abs/2503.07919)
 * **_macOSWorld: A Multilingual Interactive Benchmark for GUI Agents_**, Yang et al., [![arXiv](https://img.shields.io/badge/arXiv-06.04-red?labelColor=grey)](https://arxiv.org/abs/2506.04135)
 * **_Towards adaptive ml benchmarks: Web-agent-driven construction, domain expansion, and metric optimization_**, Jia et al., [![arXiv](https://img.shields.io/badge/arXiv-09.09-red?labelColor=grey)](https://arxiv.org/abs/2509.09321)
@@ -303,7 +300,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_The Causal Impact of Tool Affordance on Safety Alignment in LLM Agents_**, Yu et al., [![arXiv](https://img.shields.io/badge/arXiv-03.20-red?labelColor=grey)](https://arxiv.org/abs/2603.20320)
 * **_GUIDE: Resolving domain bias in GUI agents through real-time web video retrieval and plug-and-play annotation_**, Xie et al., [![arXiv](https://img.shields.io/badge/arXiv-03.26-red?labelColor=grey)](https://arxiv.org/abs/2603.26266)
 * **_Full-duplex-bench-v3: Benchmarking tool use for full-duplex voice agents under real-world disfluency_**, Lin et al., [![arXiv](https://img.shields.io/badge/arXiv-04.04-red?labelColor=grey)](https://arxiv.org/abs/2604.04847)
-* **_Osworld: Benchmarking multimodal agents for open-ended tasks in real computer environments_**, Xie et al., ![Journal](https://img.shields.io/badge/Journal-2024-blue?labelColor=grey) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/xlang-ai/OSWorld)
+* **_Osworld: Benchmarking multimodal agents for open-ended tasks in real computer environments_**, Xie et al., ![NeurIPS](https://img.shields.io/badge/NeurIPS-2024-blue?labelColor=grey) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/xlang-ai/OSWorld)
 * **_Medbrowsecomp: Benchmarking medical deep research and computer use_**, Chen et al., [![arXiv](https://img.shields.io/badge/arXiv-05.14-red?labelColor=grey)](https://arxiv.org/abs/2505.14963)
 * **_RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents_**, Yang et al., [![arXiv](https://img.shields.io/badge/arXiv-06.00-red?labelColor=grey)](https://arxiv.org/abs/2506.00618)
 * **_OSWorld-Human: Benchmarking the Efficiency of Computer-Use Agents_**, Abhyankar et al., [![arXiv](https://img.shields.io/badge/arXiv-06.16-red?labelColor=grey)](https://arxiv.org/abs/2506.16042)
@@ -329,14 +326,14 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_ELT-Bench-Verified: Benchmark Quality Issues Underestimate AI Agent Capabilities_**, Zanoli et al., [![arXiv](https://img.shields.io/badge/arXiv-03.29-red?labelColor=grey)](https://arxiv.org/abs/2603.29399)
 * **_\textttYC-Bench_**, He et al., [![arXiv](https://img.shields.io/badge/arXiv-04.01-red?labelColor=grey)](https://arxiv.org/abs/2604.01212)
 * **_HippoCamp: Benchmarking Contextual Agents on Personal Computers_**, Yang et al., [![arXiv](https://img.shields.io/badge/arXiv-04.01-red?labelColor=grey)](https://arxiv.org/abs/2604.01221)
-* **_PHMForge: A Scenario-Driven Agentic Benchmark for Industrial Asset Lifecycle Maintenance_**, Das et al., ![Journal](https://img.shields.io/badge/Journal-2026-blue?labelColor=grey)
+* **_PHMForge: A Scenario-Driven Agentic Benchmark for Industrial Asset Lifecycle Maintenance_**, Das et al., [![arXiv](https://img.shields.io/badge/arXiv-04.01-red?labelColor=grey)](https://arxiv.org/abs/2604.01532)
 * **_Agenthazard: A benchmark for evaluating harmful behavior in computer-use agents_**, Feng et al., [![arXiv](https://img.shields.io/badge/arXiv-04.02-red?labelColor=grey)](https://arxiv.org/abs/2604.02947)
 * **_How well do agentic skills work in the wild: Benchmarking llm skill usage in realistic settings_**, Liu et al., [![arXiv](https://img.shields.io/badge/arXiv-04.04-red?labelColor=grey)](https://arxiv.org/abs/2604.04323)
 * **_Benchmarking Requirement-to-Architecture Generation with Hybrid Evaluation_**, Li et al., [![arXiv](https://img.shields.io/badge/arXiv-04.06-red?labelColor=grey)](https://arxiv.org/abs/2604.06683)
 * **_Web-Bench: A LLM Code Benchmark Based on Web Standards and Frameworks_**, Xu et al., [![arXiv](https://img.shields.io/badge/arXiv-05.07-red?labelColor=grey)](https://arxiv.org/abs/2505.07473)
 * **_AirCopBench: A Benchmark for Multi-drone Collaborative Embodied Perception and Reasoning_**, Zha et al., [![arXiv](https://img.shields.io/badge/arXiv-11.11-red?labelColor=grey)](https://arxiv.org/abs/2511.11025)
 * **_AppSelectBench: Application-Level Tool Selection Benchmark_**, Chen et al., [![arXiv](https://img.shields.io/badge/arXiv-11.19-red?labelColor=grey)](https://arxiv.org/abs/2511.19957)
-* **_Arabic Prompts with English Tools: A Benchmark_**, Kubrak et al., ![Conf](https://img.shields.io/badge/Conf-2025-blue?labelColor=grey)
+* **_Arabic Prompts with English Tools: A Benchmark_**, Kubrak et al., [![BigData](https://img.shields.io/badge/BigData-01.05-blue?labelColor=grey)](https://arxiv.org/abs/2601.05101)
 * **_Agentic Artificial Intelligence (AI): Architectures, Taxonomies, and Evaluation of Large Language Model Agents_**, Buyya et al., [![arXiv](https://img.shields.io/badge/arXiv-01.12-red?labelColor=grey)](https://arxiv.org/abs/2601.12560)
 * **_IDE-Bench: Evaluating Large Language Models as IDE Agents on Real-World Software Engineering Tasks_**, Mateega et al., [![arXiv](https://img.shields.io/badge/arXiv-01.20-red?labelColor=grey)](https://arxiv.org/abs/2601.20886)
 * **_Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents_**, Tang et al., [![arXiv](https://img.shields.io/badge/arXiv-02.02-red?labelColor=grey)](https://arxiv.org/abs/2602.02995)
@@ -352,10 +349,10 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_Towards autonomous normative multi-agent systems for Human-AI software engineering teams_**, Dam et al., [![arXiv](https://img.shields.io/badge/arXiv-12.02-red?labelColor=grey)](https://arxiv.org/abs/2512.02329)
 * **_AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents on Software Development_**, Agarwal et al., [![arXiv](https://img.shields.io/badge/arXiv-01.13-red?labelColor=grey)](https://arxiv.org/abs/2601.13597)
 * **_Agyn: A Multi-Agent System for Team-Based Autonomous Software Engineering_**, Benkovich et al., [![arXiv](https://img.shields.io/badge/arXiv-02.01-red?labelColor=grey)](https://arxiv.org/abs/2602.01465)
-* **_CoAct-1: Computer-using Multi-agent System with Coding Actions_**, Song et al., ![Conf](https://img.shields.io/badge/Conf--blue?labelColor=grey)
+* **_CoAct-1: Computer-using Multi-agent System with Coding Actions_**, Song et al., [![ICLR](https://img.shields.io/badge/ICLR-08.03-blue?labelColor=grey)](https://arxiv.org/abs/2508.03923)
 * **_Self-Organizing Multi-Agent Systems for Continuous Software Development_**, Lyu et al., [![arXiv](https://img.shields.io/badge/arXiv-03.25-red?labelColor=grey)](https://arxiv.org/abs/2603.25928)
 * **_Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution_**, Yan et al., [![arXiv](https://img.shields.io/badge/arXiv-12.12-red?labelColor=grey)](https://arxiv.org/abs/2512.12806)
-* **_ESAA: Event Sourcing for Autonomous Agents in LLM-Based Software Engineering_**, Brito dos Santos Filho et al., ![Journal](https://img.shields.io/badge/Journal-2026-blue?labelColor=grey)
+* **_ESAA: Event Sourcing for Autonomous Agents in LLM-Based Software Engineering_**, Brito dos Santos Filho et al., [![arXiv](https://img.shields.io/badge/arXiv-02.23-red?labelColor=grey)](https://arxiv.org/abs/2602.23193)
 * **_FLARE: Agentic Coverage-Guided Fuzzing for LLM-Based Multi-Agent Systems_**, Hui et al., [![arXiv](https://img.shields.io/badge/arXiv-04.05-red?labelColor=grey)](https://arxiv.org/abs/2604.05289)
 * **_CCD-CBT: Multi-Agent Therapeutic Interaction for CBT Guided by Cognitive Conceptualization Diagram_**, Liu et al., [![arXiv](https://img.shields.io/badge/arXiv-04.06-red?labelColor=grey)](https://arxiv.org/abs/2604.06551)
 * **_Hybrid-Gym: Training Coding Agents to Generalize Across Tasks_**, Xie et al., [![arXiv](https://img.shields.io/badge/arXiv-02.16-red?labelColor=grey)](https://arxiv.org/abs/2602.16819)
@@ -377,8 +374,8 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_The dawn of gui agent: A preliminary case study with claude 3.5 computer use_**, Hu et al., [![arXiv](https://img.shields.io/badge/arXiv-11.10-red?labelColor=grey)](https://arxiv.org/abs/2411.10323)
 * **_SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience_**, Sun et al., [![arXiv](https://img.shields.io/badge/arXiv-08.04-red?labelColor=grey)](https://arxiv.org/abs/2508.04700)
 * **_``Are We Done Yet?'': A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents_**, Sumyk et al., [![arXiv](https://img.shields.io/badge/arXiv-11.20-red?labelColor=grey)](https://arxiv.org/abs/2511.20067)
-* **_Agenttrek: Agent trajectory synthesis via guiding replay with web tutorials_**, Xu et al., ![Conf](https://img.shields.io/badge/Conf-2025-blue?labelColor=grey)
-* **_Are Autonomous Web Agents Good Testers?_**, Chevrot et al., ![Journal](https://img.shields.io/badge/Journal-2025-blue?labelColor=grey)
+* **_Agenttrek: Agent trajectory synthesis via guiding replay with web tutorials_**, Xu et al., [![ICLR](https://img.shields.io/badge/ICLR-12.09-blue?labelColor=grey)](https://arxiv.org/abs/2412.09605)
+* **_Are Autonomous Web Agents Good Testers?_**, Chevrot et al., [![PACMSE](https://img.shields.io/badge/PACMSE-04.01-blue?labelColor=grey)](https://arxiv.org/abs/2504.01495)
 * **_Efficient agent training for computer use_**, He et al., [![arXiv](https://img.shields.io/badge/arXiv-05.13-red?labelColor=grey)](https://arxiv.org/abs/2505.13909)
 * **_VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos_**, Lu et al., [![arXiv](https://img.shields.io/badge/arXiv-10.19-red?labelColor=grey)](https://arxiv.org/abs/2510.19488)
 * **_OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution_**, Zhang et al., [![arXiv](https://img.shields.io/badge/arXiv-01.20-red?labelColor=grey)](https://arxiv.org/abs/2601.20380)
@@ -406,11 +403,11 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 
 * **_Can We Trust a Black-box LLM? LLM Untrustworthy Boundary Detection via Bias-Diffusion and Multi-Agent Reinforcement Learning_**, Zhou et al., [![arXiv](https://img.shields.io/badge/arXiv-04.05-red?labelColor=grey)](https://arxiv.org/abs/2604.05483)
 * **_Webrl Training Llm Web Agents 2411_**, Unknown et al., [![arXiv](https://img.shields.io/badge/arXiv-11.02-red?labelColor=grey)](https://arxiv.org/abs/2411.02337)
-* **_Webagent-r1: Training web agents via end-to-end multi-turn reinforcement learning_**, Wei et al., ![Conf](https://img.shields.io/badge/Conf-2025-blue?labelColor=grey)
-* **_WorkForceAgent-R1: Incentivizing reasoning capability in llm-based web agents via reinforcement learning_**, Zhuang et al., ![ACL](https://img.shields.io/badge/ACL-2026-blue?labelColor=grey)
+* **_Webagent-r1: Training web agents via end-to-end multi-turn reinforcement learning_**, Wei et al., [![EMNLP](https://img.shields.io/badge/EMNLP-05.16-blue?labelColor=grey)](https://arxiv.org/abs/2505.16421)
+* **_WorkForceAgent-R1: Incentivizing reasoning capability in llm-based web agents via reinforcement learning_**, Zhuang et al., [![ACL Findings](https://img.shields.io/badge/ACL%20Findings-05.22-blue?labelColor=grey)](https://arxiv.org/abs/2505.22942)
 * **_Large Language Model Guided Incentive Aware Reward Design for Cooperative Multi-Agent Reinforcement Learning_**, Urgun et al., [![arXiv](https://img.shields.io/badge/arXiv-03.24-red?labelColor=grey)](https://arxiv.org/abs/2603.24324)
 * **_Computerrl Scaling End To End 2508_**, Unknown et al., [![arXiv](https://img.shields.io/badge/arXiv-08.14-red?labelColor=grey)](https://arxiv.org/abs/2508.14040)
-* **_TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning_**, Chen et al., ![Conf](https://img.shields.io/badge/Conf-2026-blue?labelColor=grey)
+* **_TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning_**, Chen et al., [![ICASSP](https://img.shields.io/badge/ICASSP-09.14-blue?labelColor=grey)](https://arxiv.org/abs/2509.14172)
 * **_Reinforcement Learning Integrated Agentic RAG for Software Test Cases Authoring_**, Hariharan et al., [![arXiv](https://img.shields.io/badge/arXiv-12.06-red?labelColor=grey)](https://arxiv.org/abs/2512.06060)
 * **_WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning_**, Xu et al., [![arXiv](https://img.shields.io/badge/arXiv-02.04-red?labelColor=grey)](https://arxiv.org/abs/2602.04634)
 * **_Adaptive Robust Estimator for Multi-Agent Reinforcement Learning_**, Li et al., [![arXiv](https://img.shields.io/badge/arXiv-03.21-red?labelColor=grey)](https://arxiv.org/abs/2603.21574)
@@ -565,3 +562,9 @@ If this repository or the survey is useful for your work, please cite:
 ## 📄 License
 
 This repository is released under the MIT License unless otherwise specified. Paper copyrights belong to their respective authors.
+
+---
+
+**Star ⭐ this repository if you find it helpful!**
+
+This repository is actively maintained. We keep updating it with the latest work on agent system and harness engineering.
