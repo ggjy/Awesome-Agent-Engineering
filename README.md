@@ -1,7 +1,7 @@
 <h1 align="center">From Question Answering to Task Completion:<br/>A Survey on Agent System and Harness Design</h1>
 
 <p align="center">
-  <a href="./Agent_Harness_Survey.pdf"><img src="https://img.shields.io/badge/Paper-Survey-green.svg" alt="Survey Paper" style="margin-right: 10px;"></a><a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
+  <a href="./Agent_Harness_Survey.pdf"><img src="https://img.shields.io/badge/Paper-Survey-green.svg" alt="Survey Paper" style="margin-right: 50px;"></a><a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
 </p>
 
 > This repo is used for recording, tracking, and organizing papers, systems, benchmarks, and other resources on **LLM-based agent system and harness design**, as a supplement to our survey.
