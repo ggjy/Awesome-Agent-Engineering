@@ -171,16 +171,16 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_A comprehensive survey of agents for computer use: Foundations, challenges, and future directions_**, Sager et al., [![JAIR](https://img.shields.io/badge/JAIR-01.16-blue?labelColor=grey)](https://arxiv.org/abs/2501.16150)
 * **_Empowering Real-World: A Survey on the Technology, Practice, and Evaluation of LLM-driven Industry Agents_**, Tang et al., [![arXiv](https://img.shields.io/badge/arXiv-10.17-red?labelColor=grey)](https://arxiv.org/abs/2510.17491)
 * **_A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?_**, Chen et al., [![arXiv](https://img.shields.io/badge/arXiv-05.10-red?labelColor=grey)](https://arxiv.org/abs/2505.10924)
-* **_GUI-360 ^_**, Mu et al., [![arXiv](https://img.shields.io/badge/arXiv-11.04-red?labelColor=grey)](https://arxiv.org/abs/2511.04307)
-* **_Adaptation of agentic ai_**, Jiang et al., [![arXiv](https://img.shields.io/badge/arXiv-12.16-red?labelColor=grey)](https://arxiv.org/abs/2512.16301)
+* **_GUI-360: A Comprehensive Dataset and Benchmark for Computer-Using Agents_**, Mu et al., [![arXiv](https://img.shields.io/badge/arXiv-11.04-red?labelColor=grey)](https://arxiv.org/abs/2511.04307)
+* **_Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills_**, Jiang et al., [![arXiv](https://img.shields.io/badge/arXiv-12.16-red?labelColor=grey)](https://arxiv.org/abs/2512.16301)
 * **_Engineering Reasoning and Instruction (ERI) Benchmark: A Large Taxonomy-driven Dataset for Foundation Models and Agents_**, Naser et al., [![arXiv](https://img.shields.io/badge/arXiv-03.02-red?labelColor=grey)](https://arxiv.org/abs/2603.02239)
 * **_Beyond Pipelines: A Survey of the Paradigm Shift toward Model-Native Agentic AI_**, Sang et al., [![arXiv](https://img.shields.io/badge/arXiv-10.16-red?labelColor=grey)](https://arxiv.org/abs/2510.16720)
 * **_Gui-ceval: A hierarchical and comprehensive chinese benchmark for mobile gui agents_**, Li et al., [![CVPR](https://img.shields.io/badge/CVPR-03.15-blue?labelColor=grey)](https://arxiv.org/abs/2603.15039)
 * **_From static templates to dynamic runtime graphs: a survey of workflow optimization for llm agents_**, Yue et al., [![arXiv](https://img.shields.io/badge/arXiv-03.22-red?labelColor=grey)](https://arxiv.org/abs/2603.22386)
 * **_Toward Reliable Evaluation of LLM-Based Financial Multi-Agent Systems: Taxonomy, Coordination Primacy, and Cost Awareness_**, Nguyen et al., [![arXiv](https://img.shields.io/badge/arXiv-03.27-red?labelColor=grey)](https://arxiv.org/abs/2603.27539)
 * **_ISD-Agent-Bench: A Comprehensive Benchmark for Evaluating LLM-based Instructional Design Agents_**, Jeon et al., [![arXiv](https://img.shields.io/badge/arXiv-02.10-red?labelColor=grey)](https://arxiv.org/abs/2602.10620)
-* **_How Ai Coding Agents Communicate 2602_**, Unknown et al., [![arXiv](https://img.shields.io/badge/arXiv-02.17-red?labelColor=grey)](https://arxiv.org/abs/2602.17084)
-* **_The attack and defense landscape of agentic ai: A comprehensive survey_**, Kim et al., [![arXiv](https://img.shields.io/badge/arXiv-03.11-red?labelColor=grey)](https://arxiv.org/abs/2603.11088)
+* **_How AI Coding Agents Communicate: A Study of Pull Request Description Characteristics and Human Review Responses_**, Watanabe et al., [![arXiv](https://img.shields.io/badge/arXiv-02.17-red?labelColor=grey)](https://arxiv.org/abs/2602.17084)
+* **_The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey_**, Kim et al., [![arXiv](https://img.shields.io/badge/arXiv-03.11-red?labelColor=grey)](https://arxiv.org/abs/2603.11088)
 
 ### Prompting, Reasoning, and Planning
 
