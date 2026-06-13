@@ -3,3 +3,6 @@
 *.tmp
 __pycache__/
 .ipynb_checkpoints/
+
+# Local-only maintenance scripts
+scripts/
