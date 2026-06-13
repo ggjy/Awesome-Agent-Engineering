@@ -1,46 +1,34 @@
-# Awesome Agent Engineering
+<h1 align="center">From Question Answering to Task Completion:<br/>A Survey on Agent System and Harness Design</h1>
 
 <p align="center">
-  <a href="https://github.com/ggjy/Awesome-Agent-Engineering/stargazers">
-    <img src="https://img.shields.io/github/stars/ggjy/Awesome-Agent-Engineering?style=social" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/ggjy/Awesome-Agent-Engineering/network/members">
-    <img src="https://img.shields.io/github/forks/ggjy/Awesome-Agent-Engineering?style=social" alt="GitHub forks">
-  </a>
   <a href="./Agent_Harness_Survey_TPAMI.pdf">
     <img src="https://img.shields.io/badge/Paper-Survey-green.svg" alt="Survey Paper">
-  </a>
-  <a href="https://awesome.re">
-    <img src="https://awesome.re/badge.svg" alt="Awesome">
   </a>
   <a href="./LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
   </a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  </a>
 </p>
 
-> A curated collection of **260+ papers**, systems, benchmarks, and engineering resources for **LLM-based agent systems**, organized through a **model + harness** lens.
-
-> ⭐ **This repo accompanies our survey** [*From Question Answering to Task Completion: A Survey on Agent System and Harness Design*](./Agent_Harness_Survey_TPAMI.pdf). If you find it useful, please **star the repo** and cite the survey.
+> This repo is used for recording, tracking, and organizing papers, systems, benchmarks, and other resources on **LLM-based agent system and harness design**, as a supplement to our 📄 **[survey (PDF)](./Agent_Harness_Survey_TPAMI.pdf)**.
+>
+> If you find any work missing or have any suggestions (papers, implementations, and other resources), feel free to open pull requests. We will add the missing entries to this repo ASAP.
+>
+> ✉️ Corrections & suggestions: [jianyuan_guo@outlook.com](mailto:jianyuan_guo@outlook.com) (Jianyuan Guo)
 
 ---
 
 ## 📰 News
 
-- **[2026.06]** Repository upgraded with survey figures, badge-style paper list, and 260+ curated references from our survey.
-- **[2026.06]** Survey *From Question Answering to Task Completion: A Survey on Agent System and Harness Design* released.
-- **[2026.06]** Initial taxonomy and paper list released.
+- **[2026.06]** Repository and Survey released.
 
 ---
 
 ## 📚 Table of Contents
 
 - [Overview](#-overview)
+- [Survey Structure](#-survey-structure)
 - [Four Paradigms of Agent Engineering](#-four-paradigms-of-agent-engineering)
 - [Execution Harness Anatomy](#-execution-harness-anatomy)
-- [Survey Structure](#-survey-structure)
 - [Paper List](#-paper-list)
   - [Foundational Papers (Survey Mainline)](#foundational-papers-survey-mainline)
   - [Surveys and Meta-analyses](#surveys-and-meta-analyses)
@@ -93,6 +81,18 @@ The execution harness is the runtime system that determines what the model obser
 
 ---
 
+## 🗺️ Survey Structure
+
+<p align="center">
+  <img src="./assets/fig-survey-structure.png" width="900" alt="Survey structure overview"/>
+  <br/>
+  <em>Structure of our survey: from background and paradigm shifts to harness anatomy, tasks, evaluation, and future directions.</em>
+</p>
+
+📄 **[Read the full survey (PDF)](./Agent_Harness_Survey_TPAMI.pdf)**
+
+---
+
 ## 🔄 Four Paradigms of Agent Engineering
 
 Our survey organizes the field along four engineering paradigms — from eliciting behavior to internalizing it:
@@ -141,18 +141,6 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 | Weak or delayed oracle | Uncertain success | Provenance, review, approval, conservative stopping |
 | Irreversible actions | Persistent side effects | Sandbox, gates, rollback, permissions |
 | High autonomy / low latency | Limited human correction | Budgets, controllers, logging, escalation |
-
----
-
-## 🗺️ Survey Structure
-
-<p align="center">
-  <img src="./assets/fig-survey-structure.png" width="900" alt="Survey structure overview"/>
-  <br/>
-  <em>Structure of our survey: from background and paradigm shifts to harness anatomy, tasks, evaluation, and future directions.</em>
-</p>
-
-📄 **[Read the full survey (PDF)](./Agent_Harness_Survey_TPAMI.pdf)**
 
 ---
 
@@ -511,6 +499,14 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 | MCPWorld | API + GUI | Hybrid tool environments | Task success / tool use |
 | MCPAgentBench | MCP tool use | Real MCP servers | Tool-use success |
 
+Beyond headline task success, benchmark leaderboards also reveal **model–harness interaction effects**. On **Terminal-Bench 2.0**, the same foundation model can span a wide accuracy range depending on the execution harness, suggesting that reported scores reflect paired model–harness systems rather than model capability alone.
+
+<p align="center">
+  <img src="./assets/fig-model-harness-Terminal-Bench.png" width="900" alt="Terminal-Bench 2.0 model-harness effects"/>
+  <br/>
+  <em>(a) Terminal-Bench 2.0 accuracy across model–harness pairings; dashed lines connect the same model under different harnesses. (b) Within-model variation across harnesses.</em>
+</p>
+
 ---
 
 ## 💡 Value-Aware Evaluation
@@ -569,9 +565,3 @@ If this repository or the survey is useful for your work, please cite:
 ## 📄 License
 
 This repository is released under the MIT License unless otherwise specified. Paper copyrights belong to their respective authors.
-
----
-
-**Star ⭐ this repository if you find it helpful!**
-
-This repository is actively maintained. We keep updating it with the latest work on agent system and harness engineering.
