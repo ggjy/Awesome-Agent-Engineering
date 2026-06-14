@@ -548,11 +548,11 @@ Contributions are welcome! You can help by:
 If this repository or the survey is useful for your work, please cite:
 
 ```bibtex
-@article{guo2026agentengineering,
-  title   = {From Question Answering to Task Completion: A Survey on Agent System and Harness Design},
-  author  = {Guo, Jianyuan and Hao, Zhiwei and Wang, Chengcheng and Fan, Cheng and Luo, Tingzhang and Li, Hongguang and Gao, Ying and Mei, Hefei and Peng, Jiankun and Xu, Rongjian and Dong, Minjing and Wu, Han and Zheng, Mengyu and Zhu, Mingjian and Han, Kai and Xu, Chang and Wang, Shiqi and Wang, Yunhe},
-  year    = {2026},
-  journal = {arXiv preprint},
+@misc{guo2026agentengineering,
+  title = {From Question Answering to Task Completion: A Survey on Agent System and Harness Design},
+  author = {Guo, Jianyuan and Hao, Zhiwei and Wang, Chengcheng and Fan, Cheng and Luo, Tingzhang and Li, Hongguang and Gao, Ying and Mei, Hefei and Peng, Jiankun and Xu, Rongjian and Dong, Minjing and Wu, Han and Zheng, Mengyu and Han, Kai and Wang, Shiqi and Xu, Chang and Wang, Yunhe},
+  year = {2026},
+  howpublished = {Preprint},
 }
 ```
 
@@ -562,8 +562,3 @@ If this repository or the survey is useful for your work, please cite:
 
 This repository is released under the MIT License unless otherwise specified. Paper copyrights belong to their respective authors.
 
----
-
-**Star ⭐ this repository if you find it helpful!**
-
-This repository is actively maintained. We keep updating it with the latest work on agent system and harness engineering.
