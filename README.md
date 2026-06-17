@@ -52,7 +52,7 @@ LLM-based agents are moving from passive **question answering** to active **task
 
 The central question of our survey is:
 
-> When agentic tasks remain unreliable, is the bottleneck primarily the foundation model, or the runtime system surrounding it?
+> Where does the bottleneck in agent performance reside, in the foundation model, in the execution harness, or in the coupling between them?
 
 We argue that agent quality emerges from the interaction between:
 
