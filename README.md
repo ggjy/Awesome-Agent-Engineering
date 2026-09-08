@@ -434,6 +434,8 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_SWE-World: Building Software Engineering Agents in Docker-Free Environments_**, Sun et al., [![arXiv](https://img.shields.io/badge/arXiv-02.03-red?labelColor=grey)](https://arxiv.org/abs/2602.03419)
 * **_SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning_**, Bhardwaj et al., [![arXiv](https://img.shields.io/badge/arXiv-03.02-red?labelColor=grey)](https://arxiv.org/abs/2603.02240)
 
+* **_Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report_**, Sun et al., [![arXiv](https://img.shields.io/badge/arXiv-26.08-red?labelColor=grey)](https://arxiv.org/abs/2608.15763)
+
 ### Other High-Relevance Systems and Reports
 
 * **_Coral: Towards autonomous multi-agent evolution for open-ended discovery_**, Qu et al., [![arXiv](https://img.shields.io/badge/arXiv-04.01-red?labelColor=grey)](https://arxiv.org/abs/2604.01658)
