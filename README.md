@@ -235,6 +235,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_CodeScout: Contextual Problem Statement Enhancement for Software Agents_**, Suri et al., [![arXiv](https://img.shields.io/badge/arXiv-03.05-red?labelColor=grey)](https://arxiv.org/abs/2603.05744)
 * **_LDP: An identity-aware protocol for multi-agent LLM systems_**, Prakash et al., [![arXiv](https://img.shields.io/badge/arXiv-03.08-red?labelColor=grey)](https://arxiv.org/abs/2603.08852)
 * **_Context Engineering: From Prompts to Corporate Multi-Agent Architecture_**, Vishnyakova et al., [![arXiv](https://img.shields.io/badge/arXiv-03.09-red?labelColor=grey)](https://arxiv.org/abs/2603.09619)
+* **_ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction_**, Zhong et al., [![EMNLP Findings](https://img.shields.io/badge/EMNLP%20Findings-2026-blue?labelColor=grey)](https://arxiv.org/abs/2608.20920) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/zhongzero/ForeDreamer)
 
 ### Benchmarks, Evaluation, and Safety
 
