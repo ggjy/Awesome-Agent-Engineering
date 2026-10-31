@@ -399,6 +399,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_Advances and Innovations in the Multi-Agent Robotic System (MARS) Challenge_**, Kang et al., [![arXiv](https://img.shields.io/badge/arXiv-01.18-red?labelColor=grey)](https://arxiv.org/abs/2601.18733)
 * **_Can a Robot Walk the Robotic Dog: Triple-Zero Collaborative Navigation for Heterogeneous Multi-Agent Systems_**, Wang et al., [![arXiv](https://img.shields.io/badge/arXiv-03.21-red?labelColor=grey)](https://arxiv.org/abs/2603.21723)
 * **_From Language to Action: Can LLM-Based Agents Be Used for Embodied Robot Cognition?_**, Shaji et al., [![arXiv](https://img.shields.io/badge/arXiv-03.03-red?labelColor=grey)](https://arxiv.org/abs/2603.03148)
+* **_Spotter: Let the Embodied Model Lead, and the VLM Reflect for It_**, Li et al., [![arXiv](https://img.shields.io/badge/arXiv-09.36-red?labelColor=grey)](https://arxiv.org/abs/2609.36808) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/zqc3117/Spotter)
 
 ### Agent-Native Training and RL
 
