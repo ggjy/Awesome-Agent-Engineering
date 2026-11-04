@@ -437,6 +437,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning_**, Bhardwaj et al., [![arXiv](https://img.shields.io/badge/arXiv-03.02-red?labelColor=grey)](https://arxiv.org/abs/2603.02240)
 
 * **_Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report_**, Sun et al., [![arXiv](https://img.shields.io/badge/arXiv-26.08-red?labelColor=grey)](https://arxiv.org/abs/2608.15763)
+* **_Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction_**, Gao et al., [![arXiv](https://img.shields.io/badge/arXiv-26.01-red?labelColor=grey)](https://arxiv.org/abs/2601.12762) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/NEUIR/ToolMaster)
 
 ### Other High-Relevance Systems and Reports
 
