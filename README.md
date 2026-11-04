@@ -341,6 +341,7 @@ The harness is decomposed into **six runtime responsibilities** that jointly det
 * **_Supporting software engineering tasks with agentic AI: Demonstration on document retrieval and test scenario generation_**, Kica et al., [![arXiv](https://img.shields.io/badge/arXiv-02.04-red?labelColor=grey)](https://arxiv.org/abs/2602.04726)
 * **_Capture the Flags: Family-Based Evaluation of Agentic LLMs via Semantics-Preserving Transformations_**, Honarvar et al., [![arXiv](https://img.shields.io/badge/arXiv-02.05-red?labelColor=grey)](https://arxiv.org/abs/2602.05523)
 * **_NAAMSE: Framework for Evolutionary Security Evaluation of Agents_**, Pai et al., [![arXiv](https://img.shields.io/badge/arXiv-02.07-red?labelColor=grey)](https://arxiv.org/abs/2602.07391)
+* **_Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution_**, Huang et al., [![arXiv](https://img.shields.io/badge/arXiv-10.17-red?labelColor=grey)](https://arxiv.org/abs/2610.17816) [![GitHub](https://img.shields.io/badge/GitHub-Code-white?logo=github)](https://github.com/OpenBMB/EC2-Bench)
 
 ### Domain Agents
 
